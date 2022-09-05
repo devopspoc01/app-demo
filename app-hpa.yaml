@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: nginx-deploy
+  name: app-deploy
 spec:
   minReplicas: 3
   maxReplicas: 5
